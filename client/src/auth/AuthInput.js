@@ -23,8 +23,8 @@ export const AuthInput = (
                 className='auth-form-input'
                 type={type}
                 value={value}
-                onChange={onChangeHandler}
-                onBlur={onBlurHandler}
+                onChange={handleValueChange}
+              //  onBlur={handInputBlur}
             />
             <span className='auth-form-error-message'>
                 {errorMessage && validationMessage}
